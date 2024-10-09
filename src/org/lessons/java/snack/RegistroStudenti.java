@@ -1,15 +1,15 @@
 package org.lessons.java.snack;
 
 public class RegistroStudenti {
-	
-	// creazione array privato
+
+    // creazione array privato
     private Studente[] studenti;
     // Contatore per gli studenti che aggiungiamo
     private int numeroStudenti;
 
     // Costruttore senza parametri con il quale inizializzo il registro vuoto
     public RegistroStudenti() {
-        this.studenti = new Studente[20]; // Definisco la grandezza max dell'array
+        this.studenti = new Studente[3]; // Definisco la grandezza max dell'array
         this.numeroStudenti = 0; // Partiamo da 0 perchè vuoto
     }
 
@@ -31,4 +31,3 @@ public class RegistroStudenti {
         }
     }
 }
-
